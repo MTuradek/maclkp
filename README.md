@@ -23,3 +23,8 @@ How to
     cd maclkp
     docker build -t maclkp .
     docker run --rm --env TOKEN maclkp <MAC>
+
+[5] Running the script from CLI (python3 environment required)
+
+    pip install --requirement requirements.txt
+    src/maclkp.py <MAC>
